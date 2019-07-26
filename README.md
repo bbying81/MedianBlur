@@ -22,17 +22,20 @@
 - imageio
 
 ## 数据
-![avatar](./data/rabbit.jpg)
-为1500*1500大小图片，对其进行了kernel_size=(5,5)的REPLICA与ZERO两种padding_way
+<div align="center">
+<img src="https://github.com/bbying81/MedianBlur/blob/master/data/rabbit.jpg"  height="300" width="300">
+</div>
 
-![avatar](./data/rabbit.jpg)
-为1500*1500大小图片，对其进行了kernel_size=(5,5)和kernel_size=(3,5)的REPLICA
+- 为1500*1500大小图片，对其进行了kernel_size=(5,5)的REPLICA与ZERO两种padding_way
+
+<div align="center">
+<img src="https://github.com/bbying81/MedianBlur/blob/master/data/Mobius_strip.jpg"  height="300" width="300">
+</div>
+- 为1500*1500大小图片，对其进行了kernel_size=(5,5)和kernel_size=(3,5)的REPLICA
 
 ## 运行
 run median-blur.py 进行median-blur
 run merge_and_gif.py 对结果图进行merge与gif
 
 ## 结果
-![avatar](./result/merge.gif)
-
-
+<img src="https://github.com/bbying81/MedianBlur/blob/master/results/merge.gif">
